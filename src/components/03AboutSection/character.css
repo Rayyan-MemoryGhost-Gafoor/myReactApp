@@ -1,0 +1,129 @@
+.character__menu{
+    background-color: black;
+    border: 2px solid var(--color-primary);
+    margin: 10px;
+    padding: 10px;
+}
+.character__main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* character items/ inventory system */
+.character__items{
+    /* background-color:blue; */
+}
+/* character avatar in the middle */
+.character__avatar{
+    background-color: green;
+    background-image: url("../../assests/backgroundST.jpg");
+    background-size: 300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.character__avatar:hover{
+    background-image: url("../../assests/about/backgroundAB.jpg");
+    background-size: 100%;
+}
+.avatar1{
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 10px 5px var(--color-primary);
+}
+.avatar1:hover{
+    transform: scale(1.2);
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+/* character stast on life side  */
+.character__stats{
+    /* background-color: purple; */
+    border: 1px solid var(--color-primary);
+    display: flex;
+    margin: 2px;
+    padding: 5px;
+    flex-direction: column;
+    
+}
+.character__stats div{
+    border-bottom: 2px solid var(--color-primary);
+}
+.stats__container{
+    /* background-color: blue; */
+    
+}
+.statistics{
+    margin: 10px;
+}
+.skills{
+    border-bottom: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px auto;
+    grid-template-rows: auto ; 
+    column-gap: 10px;
+    row-gap: 15px;
+    gap: 2rem;
+}
+.skill__icon{
+    width: 50px;
+    height: 50px;
+}
+.skill__container{
+   width:100px;
+   height: 100px;
+   /* background-color: var(--color-primary); */
+}
+.items__container{
+    border: 1px solid var(--color-primary);
+    display: flex;
+    margin: 2px;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.items{
+
+    padding: 50px;
+}
+.item__container{
+    padding: 10px;
+}
+.item__icon{
+    /* background-color: green; */
+    width: 75px;
+    height: 75px;
+}
+
+/*=============Tablet=============*/
+@media screen and (max-width: 1024px){
+
+    .character__main{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .skills{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+   
+}
+/*=============mobile===============*/
+@media screen and (max-width: 600px){
+    /* .container{
+        /* background-color: rgb(99, 0, 230); 
+    } */
+    .character__main{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .skills{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    
+}
+    

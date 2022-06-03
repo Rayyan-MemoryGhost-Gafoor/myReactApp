@@ -15,7 +15,10 @@ export default class Blogs extends Component {
                     Blogs
                 </h2>
                 <h5>
-                    yo these are my thoughts?
+                    Yo these are my thoughts?
+                </h5>
+                <h5>
+                Go ahead... PICK A CARD
                 </h5>
                 <div className='BlogHolder'>
                     <BlogList/>

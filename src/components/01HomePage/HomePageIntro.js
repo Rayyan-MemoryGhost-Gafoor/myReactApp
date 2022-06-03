@@ -5,21 +5,26 @@ import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiFillTwitterCircle} from 'react-icons/ai'
 import "./Home.css"
+import Netart from '../NetArt/Netart'
+
 
 
 export default class HomePageIntro extends Component {
   render() {
     return (
         <React.Fragment>
-
+          <main className='home__container'>
           <header>
             <div className='container header__container'>
-              <h5>Hello I am</h5>
+              <h5>Hello I Am</h5>
               <h1> <GiFox/> Ghost <GiFox/></h1>
               <h5 className='text-light'>Game Developer | Designer </h5>
               <div className='me'><img className='homeImage' src={this.props.Owner.Logo}/></div>
             </div>
+            
           </header>
+         
+
 
           <footer className='container footer__container'>
             Check Me Out
@@ -32,7 +37,7 @@ export default class HomePageIntro extends Component {
             </div>
           </footer>
           
-          
+          </main>
         </React.Fragment>
     )
   }

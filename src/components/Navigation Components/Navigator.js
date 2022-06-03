@@ -1,51 +1,27 @@
-import React, { Component } from 'react'
+import React, { Component, useState} from 'react'
 import { Link } from 'react-router-dom'
 import { GiFox } from 'react-icons/gi'
 import "./Nav2.css"
-import {VscThreeBars} from "react-icons/vsc"
+import Pause from '../04PopUp/Pause'
+import Logo from "../../assests/Logo.jpg"
+import healthBar from "../../assests/pauseMenu/healthBar.png"
 
-export default class Navigator extends Component {
-  constructor(props){
-    super(props);
-    this.state={
-      openLinks: false
-    };
-    this.toggleNav = this.toggleNav.bind(this);
-  }
-
-  toggleNav(){
-    this.setState(prevState=> ({
-      openLinks : !prevState.openLinks
-    }));
-
-  }
-  render() {
+function Navigator(){
+  const [openModal, setopenModal] = useState(false)
     return (
-        <div className='navbar'>
-          <div className='leftSide' id={this.state.openLinks ? "open" : "close"}>
-              <Link to="/" className='navBar-Logo'><img className='NavLogo' src={this.props.Owner.Logo}/>{this.props.Owner.Username}</Link>
-              <div className='hidden'>
-                <Link className='Nav-link-names' to="/">Home</Link>
-                <Link className='Nav-link-names' to="/blogs">Blogs</Link>
-                <Link className='Nav-link-names' to="/about">About</Link>
-                {/* <Link className='Nav-link-names' to="/contact">Contact</Link> */}
-              </div>
-          </div>
-          <div className='rightSide'>
-            <Link className='Nav-link-names' to="/">Home</Link>
-            <Link className='Nav-link-names' to="/blogs">Blogs</Link>
-            <Link className='Nav-link-names' to="/about">About</Link>
-            {/* <Link className='Nav-link-names' to="/contact">Contact</Link> */}
-            
-            <button onClick={this.toggleNav}>
-            <VscThreeBars/>
-                {/* <div className='line1'></div>
-                <div className='line2'></div>
-                <div className='line3'></div> */}
-            </button>
-          </div>
+      <nav className='navbar'>
+        <div className='leftSide'>
+        <Link to="/" className='navBar-Logo'>
+           <img className='NavLogo' src={Logo}/>
+           MEMORYGHOST
+        </Link>
+            <button className='modal__button' onClick={()=>setopenModal(true)}>Pause</button>
+            <img className='health__bar' src={healthBar}></img>
         </div>
-    )
+        <Pause open={openModal} onClose={()=> setopenModal(false)}/>
+      </nav>
+  )
   }
-}
-
+    
+  export default Navigator
+  // <Link to="/" className='navBar-Logo'><img className='NavLogo' src={this.props.Owner.Logo}/>{this.props.Owner.Username}</Link>
