@@ -1,15 +1,42 @@
 {
   "files": {
-    "main.css": "/myReactApp/static/css/main.8bdf0cd0.css",
-    "main.js": "/myReactApp/static/js/main.b601c6ff.js",
+    "main.css": "/myReactApp/static/css/main.72bd6ba8.css",
+    "main.js": "/myReactApp/static/js/main.7e4458d1.js",
+    "static/media/map.jpg": "/myReactApp/static/media/map.dfe13b0694dc75ce36d1.jpg",
+    "static/media/blog4card.png": "/myReactApp/static/media/blog4card.3bfb5933ac984132a4e6.png",
+    "static/media/blog7card.png": "/myReactApp/static/media/blog7card.2722e23cceb71d2310a6.png",
+    "static/media/blog2card.png": "/myReactApp/static/media/blog2card.42d5d4230e75fbac3f9f.png",
+    "static/media/blog1card.png": "/myReactApp/static/media/blog1card.d3534c6ae51873c5ae25.png",
+    "static/media/blogEcard.png": "/myReactApp/static/media/blogEcard.b73848cfa3b51bc652d1.png",
+    "static/media/blog3card.png": "/myReactApp/static/media/blog3card.0d9fd763a7ab34034f78.png",
+    "static/media/blog5card.png": "/myReactApp/static/media/blog5card.507e0d1a67bf277de8f5.png",
+    "static/media/blog8card.png": "/myReactApp/static/media/blog8card.e148d114fad35e28b0e1.png",
+    "static/media/blog6card.png": "/myReactApp/static/media/blog6card.ca5fd9449891bbc5f0c2.png",
+    "static/media/4.jpg": "/myReactApp/static/media/4.30802617eb5ad794e188.jpg",
+    "static/media/healthBar.png": "/myReactApp/static/media/healthBar.ad4d71075a16fa75917b.png",
+    "static/media/background.jpg": "/myReactApp/static/media/background.c6db5d983532b2666bee.jpg",
+    "static/media/w3.jpg": "/myReactApp/static/media/w3.4df3ab83d052bf0df844.jpg",
+    "static/media/w1.jpg": "/myReactApp/static/media/w1.226329b8b1777d85e4ab.jpg",
+    "static/media/3.jpg": "/myReactApp/static/media/3.6dffce8790b4b1084cf4.jpg",
+    "static/media/backgroundST.jpg": "/myReactApp/static/media/backgroundST.ae72cd5656ced554a092.jpg",
+    "static/media/6.png": "/myReactApp/static/media/6.4c54904c0e814a0a3486.png",
+    "static/media/w2.jpg": "/myReactApp/static/media/w2.e93fdfe477fc5cd69447.jpg",
+    "static/media/backgroun_home.png": "/myReactApp/static/media/backgroun_home.6a15d8a19f170d2e43af.png",
+    "static/media/me2.png": "/myReactApp/static/media/me2.c936c500a6093ea06d8b.png",
     "static/media/Wireframe1.jpg": "/myReactApp/static/media/Wireframe1.496afa8933aa1488307d.jpg",
+    "static/media/1.jpg": "/myReactApp/static/media/1.c2d3d271de89039183e3.jpg",
+    "static/media/backgroundAB.jpg": "/myReactApp/static/media/backgroundAB.68c015b95ba12a9c8ace.jpg",
+    "static/media/7.jpg": "/myReactApp/static/media/7.2d71e3559aa0403cf7e6.jpg",
+    "static/media/2.jpg": "/myReactApp/static/media/2.4367ab31aceea823d3ec.jpg",
+    "static/media/5.jpg": "/myReactApp/static/media/5.8db199a5fa058d57dd5d.jpg",
     "static/media/Wireframe2.jpg": "/myReactApp/static/media/Wireframe2.0d782b55d5d7664a27e7.jpg",
+    "static/media/Logo.jpg": "/myReactApp/static/media/Logo.b5a1a95d1f71b3da07de.jpg",
     "index.html": "/myReactApp/index.html",
-    "main.8bdf0cd0.css.map": "/myReactApp/static/css/main.8bdf0cd0.css.map",
-    "main.b601c6ff.js.map": "/myReactApp/static/js/main.b601c6ff.js.map"
+    "main.72bd6ba8.css.map": "/myReactApp/static/css/main.72bd6ba8.css.map",
+    "main.7e4458d1.js.map": "/myReactApp/static/js/main.7e4458d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bdf0cd0.css",
-    "static/js/main.b601c6ff.js"
+    "static/css/main.72bd6ba8.css",
+    "static/js/main.7e4458d1.js"
   ]
 }
