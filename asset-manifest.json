@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myReactApp/static/css/main.72bd6ba8.css",
-    "main.js": "/myReactApp/static/js/main.7e4458d1.js",
+    "main.css": "/myReactApp/static/css/main.894503d3.css",
+    "main.js": "/myReactApp/static/js/main.366e1c4d.js",
     "static/media/map.jpg": "/myReactApp/static/media/map.dfe13b0694dc75ce36d1.jpg",
     "static/media/blog4card.png": "/myReactApp/static/media/blog4card.3bfb5933ac984132a4e6.png",
     "static/media/blog7card.png": "/myReactApp/static/media/blog7card.2722e23cceb71d2310a6.png",
@@ -30,13 +30,14 @@
     "static/media/2.jpg": "/myReactApp/static/media/2.4367ab31aceea823d3ec.jpg",
     "static/media/5.jpg": "/myReactApp/static/media/5.8db199a5fa058d57dd5d.jpg",
     "static/media/Wireframe2.jpg": "/myReactApp/static/media/Wireframe2.0d782b55d5d7664a27e7.jpg",
+    "static/media/digitalFragilty.docx": "/myReactApp/static/media/digitalFragilty.13915176ae5036bd04b8.docx",
     "static/media/Logo.jpg": "/myReactApp/static/media/Logo.b5a1a95d1f71b3da07de.jpg",
     "index.html": "/myReactApp/index.html",
-    "main.72bd6ba8.css.map": "/myReactApp/static/css/main.72bd6ba8.css.map",
-    "main.7e4458d1.js.map": "/myReactApp/static/js/main.7e4458d1.js.map"
+    "main.894503d3.css.map": "/myReactApp/static/css/main.894503d3.css.map",
+    "main.366e1c4d.js.map": "/myReactApp/static/js/main.366e1c4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.72bd6ba8.css",
-    "static/js/main.7e4458d1.js"
+    "static/css/main.894503d3.css",
+    "static/js/main.366e1c4d.js"
   ]
 }
