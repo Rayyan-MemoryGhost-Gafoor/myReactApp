@@ -11,6 +11,11 @@ import seven from "./7.jpg";
 import w1 from "./w1.jpg";
 import w2 from "./w2.jpg";
 import w3 from "./w3.jpg";
+import { GiFox } from 'react-icons/gi';
+import {AiFillInstagram} from 'react-icons/ai';
+import {AiFillGithub} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
+import {AiFillTwitterCircle} from 'react-icons/ai';
 
 
 export default class Design extends React.Component {
@@ -188,6 +193,19 @@ export default class Design extends React.Component {
                 </section>
 
             </section>
+            <section>
+                <footer className='container footer__container'>
+                Check Me Out
+                    <div className='socials'>
+                    <button className='social__icon'>< AiFillGithub/></button>
+                    <button className='social__icon'>< AiFillLinkedin/></button>
+                    <button className='social__icon'>< AiFillTwitterCircle/></button>
+                    <button className='social__icon'>< AiFillInstagram/></button>
+                    
+                    </div>
+                </footer>
+            </section>
+            
             
         </section>
     );

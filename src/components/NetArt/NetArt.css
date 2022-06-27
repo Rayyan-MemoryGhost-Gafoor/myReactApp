@@ -1,5 +1,5 @@
 .main__container{
-    text-align: center;
+    text-align: left;
 }
 .netart__container{
 
@@ -20,4 +20,7 @@
 }
 .netart__embeded{
    
+}
+.documents{
+    width: 35rem;
 }

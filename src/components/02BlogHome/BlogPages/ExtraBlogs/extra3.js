@@ -151,8 +151,12 @@ something new.
                </section>
                
                 <section>
-                    <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
-                
+                <section>
+                <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
+               
+               </article>
+                </section>
                      <h5>References</h5>
                      <ul>
                          <li>Rayyan Gafoor. Blog 1: Beyond the Beyond, 2022. </li>

@@ -78,9 +78,10 @@ export default class Blog7 extends Component {
                </section>
                
                 <section>
-                    <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
-                
-                     {/* <h5>References</h5> */}
+                <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
+               
+               </article>
                 </section>
               
                

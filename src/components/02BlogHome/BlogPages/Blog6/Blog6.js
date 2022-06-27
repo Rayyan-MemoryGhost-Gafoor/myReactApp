@@ -6,9 +6,10 @@ export default class Blog6 extends Component {
 
     render(){
         return(
-            <div className='Blog-Text'>
+            <section className='Blog-Text'>
                <h1>Design Framework</h1>
-               <br></br>
+               <section>
+               <article>
                <p>
                 For my website I wanted to keep it to a simplistic minimalist layout. 
                 My wireframes have gone through extensive iterations because of this. 
@@ -21,7 +22,10 @@ export default class Blog6 extends Component {
                 The reading looked at the “Best Practices for Designing an Interface”. 
                 The following points are what I drew inspiration from:
                </p>
-               <h5>Keep the Interface simple.</h5>
+
+               </article>
+               <h2>Keep the Interface simple.</h2>
+               <article>
                <p>
                    This is my entire objective. I wanted to use on the UI elements 
                    I saw fit to use at this stage of the project. Keeping the interactivity 
@@ -30,7 +34,9 @@ export default class Blog6 extends Component {
                    (I have asked a few 
                    people to view the website while I observed silently)
                 </p>
-                <h5>Create Consistency </h5>
+                </article>
+                <h2>Create Consistency </h2>
+                <article>
                 <p>
                     This is something I struggled with the when I first took the IM course. 
                     I was so excited to experiment with everything that I lost track of where 
@@ -40,7 +46,9 @@ export default class Blog6 extends Component {
                     practical we have engaged with in class have helped a lot with this. 
 
                 </p>
-               <h5>Strategically use colour</h5>
+                </article>
+               <h2>Strategically use colour</h2>
+               <article>
                <p>
                 I wanted colour to not only draw attention to certain elements 
                 but at the same time convey a message about who I am. At first, 
@@ -58,14 +66,15 @@ export default class Blog6 extends Component {
 
                </p>
                <p>
-                    Excitement
-                    <br></br>
-                    Love
-                    <br></br>
-                    Energy
+                   <ul>
+                       <li>Excitement</li>
+                       <li>Love</li>
+                       <li>Energy</li>
+                   </ul>
+                    
                </p>
-               
-               <p>
+               </article>
+               <article>
                These were positives in my book. But what concerned me was that red could also come off as aggressive. 
                Red is simply an angry colour. So, I wanted something that could fight against this. 
                I needed to something to kill off this anger, and that led me to pink. According to the 
@@ -90,14 +99,15 @@ export default class Blog6 extends Component {
                 and alongside red, this mystery is what I love and what brings me joy and 
                 excitement on this journey of Game Development.
 
-               </p>
+                </article>
                {/* <img  src=  alt="This is an Image of Me"/>   */}
                <img src={this.props.Owner.Wireframe1} />
                <img src={this.props.Owner.Wireframe2} />
-               <br></br>
-
-               <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
+               </section>
+               <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
                
+               </article>
                <h5>References</h5>
                <p>The Best Website Color Palettes to Increase Engagement in 2022<a target="_blank" href="https://www.crazyegg.com/blog/website-color-palettes/"> Read More</a></p>
                <p>Using Light, Color and Contrast Effectively in UI Design<a target="_blank" href="https://usabilitypost.com/2008/08/14/using-light-color-and-contrast-effectively-in-ui-design/"> Read More</a></p>
@@ -107,7 +117,7 @@ export default class Blog6 extends Component {
                <p>The Art of Color Coordination<a target="_blank" href="https://neilpatel.com/blog/art-of-color-coordination/"> Read More</a></p>
                <p>The psychology of color in web design<a target="_blank" href="https://99designs.com/blog/creative-inspiration/psychology-color-web-design/"> Read More</a></p>
                
-            </div>
+            </section>
         )
     }
 }

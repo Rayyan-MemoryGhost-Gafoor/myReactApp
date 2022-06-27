@@ -3,9 +3,9 @@ import { Route, Routes,Link } from 'react-router-dom';
 import { GiFoxTail } from 'react-icons/gi';
 
 
-const Card=(props)=>{
+const QuickItem=(props)=>{
     return(
-        <div className='card__holder'>
+        <div className='item__holder'>
             <div className='layer1'>
                 <img className='card__img' src={props.img}/>
             </div>
@@ -20,4 +20,4 @@ const Card=(props)=>{
     )
 
 }
-export default Card
+export default QuickItem

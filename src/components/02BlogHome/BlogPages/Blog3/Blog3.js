@@ -5,8 +5,9 @@ export default class Blog3 extends Component {
 
     render(){
         return(
-            <div className='Blog-Text'>
+            <section className='Blog-Text'>
                <h1>The Ever-Growing Divide</h1>
+               <article>
                <p>
                 I first heard about this concept of the digital divide in 2020, 
                 and only until recently, my idea of this concept was an isolated one.
@@ -18,9 +19,12 @@ export default class Blog3 extends Component {
                 start of the covid-19 pandemic, threatens to increase the growth of 
                 this divide exponentially.
                </p>
+               </article>
+               
                <h2>
                What is the ‘Digital Divide’?
                </h2>
+               <article>
                <p>
                To my understanding ‘Digital Divide’ is the gap that exists between 
                those people who have access to technology and those who have poor 
@@ -35,8 +39,9 @@ export default class Blog3 extends Component {
                  with ease, others we not able to continue their education, due to 
                  the already existing effects of the divide (Tataki and Glynos, 2020). 
                </p>
-               <br></br>
+               </article>
                <h5>The following statistics are extracted from the above-mentioned article:</h5>
+               <article>
                <p>
                “According to UNESCO, of all the students currently out of the classroom,
                 50% or about 830 million do not have access to a computer. One solution
@@ -46,7 +51,8 @@ export default class Blog3 extends Component {
                 Internet at home.”
 
                </p>
-               <br></br>
+               </article>
+               <article>
                <p>
                 I myself have fallen victim to the effects of this divide. 
                 Even though I was provided by the institution the technologies 
@@ -68,8 +74,9 @@ export default class Blog3 extends Component {
                  simple, ‘No’. 
 
                </p>
-               <br></br>
+               </article>
                <h2>Colonialism Gave Birth to the Digital Divide</h2>
+               <article>
                <p>
                 This may come off as subjective, but this is the way I see 
                 the digital divide now after numerous amounts of research done 
@@ -99,8 +106,9 @@ export default class Blog3 extends Component {
                  In the end I believe this branches off into a, not new, but a divide in society. 
 
                </p>
-               <br></br>
+               </article>
                <h2>Neo-Colonialism and Foundation of the Digital Divide.</h2>
+               <article>
                <p>
                 In my paper I also explored the concept of neo-colonialism. 
                 I looked at the idea if “Internet Freedom” and the idea of 
@@ -118,22 +126,37 @@ export default class Blog3 extends Component {
                 turn made neo-colonialism possible today. And this is why we
                 the Digital Divide affects both the society and the economy. 
                </p>
-               <br></br>
-               <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
+               </article>
+               <section>
+               <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
                
+               </article>
+               </section>
+               
+               <section>
                <h5>References</h5>
                <p>
-                Chock, C. (2020). #TravelingWhileTrans, Design Justice, and Escape from the Matrix of Domination. Design Justice • Design Justice.
-                <br></br>
-                CNET news. (2020, August 11). Retrieved from CNET: https://www.cnet.com/news/politics/in-china-facial-recognition-public-shaming-and-control-go-hand-in-hand/
-                <br></br>
-                Gafoor, R. (2022). African Cultures in Technolgy. 6.
-                <br></br>
-                Tataki, M., & Glynos, D. (2020). Digital Divide Widens. DIGITAL INCLUSION.
-
+                 <ul>
+                  <li>
+                     Chock, C. (2020). #TravelingWhileTrans, Design Justice, and Escape from the Matrix of Domination. Design Justice • Design Justice.
+                  </li>
+                  <li>
+                     CNET news. (2020, August 11). Retrieved from CNET: https://www.cnet.com/news/politics/in-china-facial-recognition-public-shaming-and-control-go-hand-in-hand/
+                  </li>
+                  <li>
+                     Gafoor, R. (2022). African Cultures in Technolgy. 6.
+                  </li>
+                  <li>
+                   Tataki, M., & Glynos, D. (2020). Digital Divide Widens. DIGITAL INCLUSION.
+                  </li>
+                 </ul>
+                
                </p>
+               </section>
                
-            </div>
+               
+            </section>
         )
     }
 }

@@ -5,10 +5,9 @@ export default class Blog5 extends Component {
 
     render(){
         return(
-            <div className='Blog-Text'>
+            <section className='Blog-Text'>
                <h1>Theoretical Reflection</h1>
-               <br></br>
-               <h2></h2>
+              
                <p>
                The theoretical aspect of this course is something I actually found interesting, 
                something that I did not expect from myself. The purpose of this aspect is to 
@@ -40,15 +39,15 @@ export default class Blog5 extends Component {
                 just how fair the rabbit hole goes. 
 
                </p>
-               <br></br>
-               <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
+               <section>
+               <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
                
-               <h5>References</h5>
-               <p>
-             
-               </p>
+               </article>
+               </section>
                
-            </div>
+               
+            </section>
         )
     }
 }

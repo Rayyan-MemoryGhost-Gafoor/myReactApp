@@ -3,7 +3,8 @@ import { Route,Link, Router, Routes} from "react-router-dom";
 import HomePageIntro from "./components/01HomePage/HomePageIntro";
 import Blogs from "./components/02BlogHome/Blogs";
 import About from "./components/03AboutSection/About";
-import InternetArt from "./components/NetArt/InternetArt"
+import InternetArt from "./components/NetArt/InternetArt";
+import Reflection from "./components/NetArt/Reflection";
 import Design from "./components/Design/Design";
 import Blog1 from './components/02BlogHome/BlogPages/Blog1/Blog1'
 import Blog2 from "./components/02BlogHome/BlogPages/Blog2/Blog2";
@@ -16,6 +17,9 @@ import Blog8 from "./components/02BlogHome/BlogPages/Blog8/Blog8";
 import Extra1 from "./components/02BlogHome/BlogPages/ExtraBlogs/extra1";
 import Extra2 from "./components/02BlogHome/BlogPages/ExtraBlogs/extra2";
 import Extra3 from "./components/02BlogHome/BlogPages/ExtraBlogs/extra3";
+import Extra4 from "./components/02BlogHome/BlogPages/ExtraBlogs/extra4";
+import Extra5 from "./components/02BlogHome/BlogPages/ExtraBlogs/extra5";
+import Extra6 from "./components/02BlogHome/BlogPages/ExtraBlogs/extra6";
 import Navigator from "./components/Navigation Components/Navigator";
 import Wireframe1 from "../src/assests/Wireframe1.jpg";
 import Wireframe2 from "../src/assests/Wireframe2.jpg";
@@ -51,6 +55,7 @@ class App extends Component{
                       <Route exact path="/blogs" element={<Blogs/>}/>
                       <Route exact path="/about" element={<About Owner={Owner}/>}/>
                       <Route exact path="/internetart" element={<InternetArt Owner={Owner}/>}/>
+                      <Route exact path="/reflection" element={<Reflection Owner={Owner}/>}/>
                       <Route exact path="/design" element={<Design Owner={Owner}/>}/>
                       {/* <Route exact path="/contact" element={<Contact/>}/> */}
                       <Route path="/blog1" element={<Blog1/>}/>
@@ -64,6 +69,9 @@ class App extends Component{
                       <Route path="/extra1" element={<Extra1 Owner={Owner}/>}/>
                       <Route path="/extra2" element={<Extra2 Owner={Owner}/>}/>
                       <Route path="/extra3" element={<Extra3 Owner={Owner}/>}/>
+                      <Route path="/extra4" element={<Extra4 Owner={Owner}/>}/>
+                      <Route path="/extra5" element={<Extra5 Owner={Owner}/>}/>
+                      <Route path="/extra6" element={<Extra6 Owner={Owner}/>}/>
                   </Routes>
                   
               </div>

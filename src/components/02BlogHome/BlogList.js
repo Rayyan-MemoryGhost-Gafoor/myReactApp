@@ -1,21 +1,21 @@
-import React, { Component } from 'react'
-import { Route, Routes,Link } from 'react-router-dom'
-import Blog1 from './BlogPages/Blog1/Blog1'
-import { GiFox } from 'react-icons/gi'
-import {AiFillInstagram} from 'react-icons/ai'
-import {AiFillGithub} from 'react-icons/ai'
-import {AiFillLinkedin} from 'react-icons/ai'
-import {AiFillTwitterCircle} from 'react-icons/ai'
-import Card from './card'
-import blog1card from "../../assests/blogCards/blog1card.png"
-import blog2card from "../../assests/blogCards/blog2card.png"
-import blog3card from "../../assests/blogCards/blog3card.png"
-import blog4card from "../../assests/blogCards/blog4card.png"
-import blog5card from "../../assests/blogCards/blog5card.png"
-import blog6card from "../../assests/blogCards/blog6card.png"
-import blog7card from "../../assests/blogCards/blog7card.png"
-import blog8card from "../../assests/blogCards/blog8card.png"
-import blogEcard from  "../../assests/blogCards/blogEcard.png"
+import React, { Component } from 'react';
+import { Route, Routes,Link } from 'react-router-dom';
+import Blog1 from './BlogPages/Blog1/Blog1';
+import { GiFox } from 'react-icons/gi';
+import {AiFillInstagram} from 'react-icons/ai';
+import {AiFillGithub} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
+import {AiFillTwitterCircle} from 'react-icons/ai';
+import Card from './card';
+import blog1card from "../../assests/blogCards/blog1card.png";
+import blog2card from "../../assests/blogCards/blog2card.png";
+import blog3card from "../../assests/blogCards/blog3card.png";
+import blog4card from "../../assests/blogCards/blog4card.png";
+import blog5card from "../../assests/blogCards/blog5card.png";
+import blog6card from "../../assests/blogCards/blog6card.png";
+import blog7card from "../../assests/blogCards/blog7card.png";
+import blog8card from "../../assests/blogCards/blog8card.png";
+import blogEcard from  "../../assests/blogCards/blogEcard.png";
 
 
 
@@ -102,6 +102,16 @@ export default class BlogList extends Component {
                         />
                     </Link>
                </div>
+               <div className='blog__card'>
+                    <Link className='blog__link' to="/extra5">
+                        <Card
+                        img= {blog7card}
+                        // blog__num= "Blog 6"
+                        title="Blog Seven & A Half Technical Reflection III"
+                        // description="This serves as my relfection on the design behind my website"
+                        />
+                    </Link>
+               </div>
                {/* Blog 8 */}
                <div className='blog__card'>
                     <Link className='blog__link' to="/blog8">
@@ -109,6 +119,16 @@ export default class BlogList extends Component {
                         img= {blog8card}
                         // blog__num= "Blog 6"
                         title="Theoretical Reflection II"
+                        // description="This serves as my relfection on the design behind my website"
+                        />
+                    </Link>
+               </div>
+               <div className='blog__card'>
+                    <Link className='blog__link' to="/extra6">
+                        <Card
+                        img= {blog8card}
+                        // blog__num= "Blog 6"
+                        title="Blog Eight & A Half Theoretical Reflection III"
                         // description="This serves as my relfection on the design behind my website"
                         />
                     </Link>
@@ -140,6 +160,15 @@ export default class BlogList extends Component {
                         img= {blogEcard}
                         // blog__num= "Blog 6"
                         title="Artificial Resurrection and The Artificial Simulation of Aura."
+                        // description="This serves as my relfection on the design behind my website"
+                        />
+                    </Link>
+               </div><div className='blog__card'>
+                    <Link className='blog__link' to="/extra4">
+                        <Card
+                        img= {blogEcard}
+                        // blog__num= "Blog 6"
+                        title="The Digital Fragility of The Starry Night"
                         // description="This serves as my relfection on the design behind my website"
                         />
                     </Link>

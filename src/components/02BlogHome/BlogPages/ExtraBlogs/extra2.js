@@ -119,8 +119,12 @@ and their influence on our experience.
                </section>
                
                 <section>
-                    <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
-                
+                <section>
+                <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
+               
+               </article>
+                </section>
                      <h5>References</h5>
                      <ul>
                          <li>Among Us. (n.d.). Retrieved from InnerSloth: https://www.innersloth.com/games/among-us/ </li>

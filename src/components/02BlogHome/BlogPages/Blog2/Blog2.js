@@ -5,9 +5,9 @@ export default class Blog2 extends Component {
 
     render(){
         return(
-            <div className='Blog-Text'>
+            <section className='Blog-Text'>
                <h1>Core Principles of Design and Aesthetics for The Web</h1>
-               <p>
+               <article>
                 My recent endeavours into the world of web design and Net art as well as part of my research for
                 this module has led me into the Aesthetic and Design aspect of web design. Humans have become
                 visual creatures who prefer objects that are more appealing over the less. Be it aesthetically pleasing
@@ -17,7 +17,8 @@ export default class Blog2 extends Component {
                 favoured over the functionality and design aspects of webs sites. In today’s world, the aesthetics are
                 used in such as way that it supports the functionality and the other aspects of websites. Here we will
                 discuss the principles behind Design and Aesthetics for web design.
-                <br></br>
+                </article>
+                <article>
                 According to the paper written by Lisbeth Thorlacius, “The Role of Aesthetics in Web Design”, history
                 indicates that the relation between functionality and aesthetics has always created a divide between
                 designers. And the introduction of “Flash” seemed to widen this divide while at the same time
@@ -35,30 +36,47 @@ export default class Blog2 extends Component {
                 result of this “life-Force” I got from the site, it is both aesthetically pleasing to me and its unique
                 functionality set it far apart from many sites which I have experienced in my life.
                 In the paper, Design Principles for Interactive User experience, by Ji Yong Park, we are provided with
-                <br></br>
+                </article>
+                
+                <article>
                 4 principles extracted from Net.Art:
-                1. Invisible Design Elements
-                2. Collaborative Participation
-                3. Anarchic Structure
-                4. Non-Linear Communication
-                <br></br>
+                <ol>
+                    <li>
+                    Invisible Design Elements
+                    </li>
+                    <li>
+                    Collaborative Participation
+                    </li>
+                    <li>
+                    Anarchic Structure
+                    </li>
+                    <li>
+                    Non-Linear Communication
+                    </li>
+                </ol>
+                </article>
+                
+                <article>
                 These elements are provided to web designers, in this case, net artists, to use and create sites that
                 are more focused on User-Centred Design. Using these elements Net.Art can be used by its artist to
                 show that in the world of today, the divide between Functionality and Aesthetics is nothing but an
                 illusion.
-               </p>
-               <br></br>
+                </article>
+               
+             
                <h2>Aesthetics vs. Functionality </h2>
-               <p>
-                These two elements as seen during the era of Flash were thought of as elements that could not exist
+               <article>
+               These two elements as seen during the era of Flash were thought of as elements that could not exist
                 together. Where people favoured a design that would use the one rather than the other. But I think
                 that despite the fact of their contradictions within the design, they are meant to coexist alongside
                 each other, to produce sites/ Net.art that pushes the boundaries of the Net itself. This is not only
                 evident in Mono*Craft, but in other websites created in today’s era.
-                <br></br>
-                <h5>Why Do Aesthetics Matter?</h5>
-                <br></br>
-                Aesthetics are the visuals, the appearances, and the feel of the website. It ranges from the symbols
+               </article>
+               
+                
+                <h2>Why Do Aesthetics Matter?</h2>
+               <article>
+               Aesthetics are the visuals, the appearances, and the feel of the website. It ranges from the symbols
                 and colours to the sound and animations we use to design these pieces of the web. They reflect the
                 purpose of the website, designed around its nature/ genre. As I stated before we have become
                 visual creatures who have learned to live by relying on these visuals throughout our daily lives. Be it
@@ -66,26 +84,30 @@ export default class Blog2 extends Component {
                 the section “The Role of Aesthetics in Contemporary Web Design” in Thorlacius’ paper, she states
                 that we have replaced language with symbols to navigate the web. We have evolved to react to
                 visuals in efficient and effective ways.
-                <br></br>
-                According to Thorlacius, there are 4 main areas of aesthetics in design
-                <br></br>
-                • Support the Content and Functionality
-                • Appeal to the Audience
-                • Sender Image
-                • Supporting Genre
-                <br></br>
+               </article>
+                
+               <article>
+               According to Thorlacius, there are 4 main areas of aesthetics in design
+                <ul>
+                    <li>Support the Content and Functionality</li>
+                    <li>Appeal to the Audience</li>
+                    <li>Sender Image</li>
+                    <li>Supporting Genre</li>
+                </ul>
+               </article>
+                
+                <article>
                 Here we already see the coexistent relation between aesthetics and functionality in the first point.
                 During this section, we also come to the conclusion that Aesthetics serves as the bridge that
                 connectsthe sender with the user and is important to keep the user entertained and engaged with
                 the site.
-                <br></br>
-                <h5>Why Does Functionality Matter?</h5>
-                <br></br>
+                </article>
+                <h2>Why Does Functionality Matter?</h2>
+                <article>
                 Despite the importance of the visual elements, designers are thought to always put functionality
                 before aesthetics, and even in this interactive media course, we are thought the technical and
                 functional aspects of web design first and are told to worry about the “colours” later. (Not that I
                 have a problem with that, so no offence).
-                <br></br>
                 The functionality enables the user. It allows the user to browse effectively and efficiently, it allows
                 the user to complete tasks, such as searching for information, entering and sending information, or
                 using any form of features that the site has to offer. This brings us to usability. Usability can be seen
@@ -95,12 +117,10 @@ export default class Blog2 extends Component {
                 sites around the world and with no personal touch to show the world we cannot create a sense of
                 individuality. With just functionality used to design a website/ Net Art, we remove this personalized
                 experience
-                <br></br>
-               </p>
+                </article>
+               
                <h2>Conclusion</h2>
-               <p>
-            
-                Despite aesthetics and functionality being contrasting in nature but both these elements are
+               <article>Despite aesthetics and functionality being contrasting in nature but both these elements are
                 required as they are both crucial elements in design that become entwined to give off something
                 that could potentially simulate that sense of life itself. Aesthetics support functionality and can
                 sometimes be used to cover up the flaws in its usability, and functionality allows us to have and
@@ -112,18 +132,29 @@ export default class Blog2 extends Component {
                 these eras were times in which one element was sacrificed and the other was favoured. This should
                 never be the case ever again. these elements can and are allowed to coexist. It’s about finding the
                 correct balance between the two that make a website great.
-               </p>
-               <br></br>
-               <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
+               </article>
+            
+                
+               <section>
+                   <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
+               
+               </article></section>
+               
                <h5>References</h5>
-               <p>
-                • Park, J.Y., 2007. Design principles for interactive user experience through net art. Journal of
-                Digital Design, 8(3), pp.47-55.
-                • Thorlacius, L., 2007. ] The Role of Aesthetics in Web Design. Nordicom Review, 28(1).
-                • Mono*Craft By Yugo Nakamura: com. 2022. [online] Available at: <a href='https://www.youtube.com/watch?v=NLt7Gwnt3WY'>link</a>
-                 [Accessed 3 April 2022]
-               </p>
-            </div>
+               <ul>
+                   <li>
+                Park, J.Y., 2007. Design principles for interactive user experience through net art. Journal of Digital Design, 8(3), pp.47-55.
+                   </li>
+                   <li>
+                Thorlacius, L., 2007. ] The Role of Aesthetics in Web Design. Nordicom Review, 28(1).
+
+                   </li>
+                   <li>
+                   Mono*Craft By Yugo Nakamura: com. 2022. [online] Available at: <a href='https://www.youtube.com/watch?v=NLt7Gwnt3WY'>link</a>[Accessed 3 April 2022]
+                   </li>
+               </ul>
+            </section>
         )
     }
 }

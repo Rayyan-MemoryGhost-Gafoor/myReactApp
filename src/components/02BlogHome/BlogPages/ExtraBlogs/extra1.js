@@ -172,8 +172,12 @@ within Africa. In short it is colonialism that makes Africa susceptible to neo-c
                </section>
                
                 <section>
-                    <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
-                
+                    <section>
+                <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
+               
+               </article>
+                </section>
                      <h5>References</h5>
                      <ul>
                          <li>Bristow, T. (2016). Access To Ghosts. African Futures, 1-8. </li>

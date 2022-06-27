@@ -95,8 +95,8 @@
 
     margin: 5rem;
     align-self: center;
-    width: 75%;
-    padding: 5px;
+    /* width: 75%; */
+    padding: 3rem;
     border: solid 2px;
     background:var(--color-bg-variant) ;
     /* text-align: block-text; */

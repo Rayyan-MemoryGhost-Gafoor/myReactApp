@@ -5,10 +5,10 @@ export default class Blog4 extends Component {
 
     render(){
         return(
-            <div className='Blog-Text'>
+            <section className='Blog-Text'>
+                
                <h1>Technical Reflection</h1>
-               <br></br>
-               <h2></h2>
+               <article>
                <p>
                 The purpose of this assignment was simple. 
                 It was meant to teach us how to use react to create a basic website. 
@@ -37,8 +37,9 @@ export default class Blog4 extends Component {
                 I was able to achieve and understand concepts and functionality much better. 
 
                </p>
-               <br></br>
+               </article>
                <h2>Functionality</h2>
+               <article>
                <p>
                The functionality of my website at this stage is basic, with 
                simple navigation and simple responsiveness. Looking at the purpose 
@@ -46,7 +47,9 @@ export default class Blog4 extends Component {
                The purpose for me was centred around the blogs, and I think the website is 
                sufficient for the needs of its audience. 
                </p>
+               </article>
                <h2>Process</h2>
+               <article>
                <p>
                My process was simple. I followed the practical given to us each week 
                and created the website adding something new on a weekly basis. This process 
@@ -55,7 +58,9 @@ export default class Blog4 extends Component {
                 the home page layout throughout these practical assessments, and when I finally learned 
                 how to connect different pages everything else fell into place. 
                </p>
+               </article>
                <h2>Achievements</h2>
+               <article>
                <p>
                    With my previous course in interactive media, some aspect of web 
                    development never occurred to and when I learned about it, I was still 
@@ -63,8 +68,9 @@ export default class Blog4 extends Component {
                    first things I made sure to include. And that was responsiveness. Although 
                    I must it adapt the behaviour of the site according to the environment it is 
                    used, does still require work. </p>
-               <br></br>
+                   </article>
                <h2>Conclusion</h2>
+               <article>
                <p>
                Overall, I feel like my engagement with the material is 
                on a good level, however I would like to see myself 
@@ -72,14 +78,16 @@ export default class Blog4 extends Component {
                my website as well. 
 
                </p>
-               <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
+               </article>
+               <section>
+               <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
                
-               <h5>References</h5>
-               <p>
+               </article>
+               </section>
              
-               </p>
                
-            </div>
+            </section>
         )
     }
 }

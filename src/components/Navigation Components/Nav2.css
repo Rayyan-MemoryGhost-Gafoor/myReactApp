@@ -12,6 +12,13 @@
     flex-direction: row;
     z-index: 9999;
 }
+.recents{
+    position: fixed;
+    transform: translate(-105%, 40rem);
+    display: flex;
+    flex-direction: row;
+    z-index: 9999;
+}
 .navbar .leftSide{
     /* background: red; */
     flex: 0%;
@@ -302,13 +309,17 @@
         position: fixed;
         transform: translate(14rem, 0%);
         z-index: 1;
-        background-color:var(--color-primary);
-        color: white;
+        /* background-color:var(--color-primary); */
+        /* color: white; */
         width: 70px;
         height: 40px;
         border-radius: 10px;
         font-weight: 700;
         font-size: 20px;
+    }
+    .modal__button:hover{
+        /* background-color:var(--color-bg); */
+        color: var(--color-bg-variant);
     }
     .health__bar{
         position: fixed;
@@ -368,6 +379,10 @@
         height: 30px;
         border-radius: 10px;
         font-weight: 700;
+    }
+    .modal__button:hover{
+        /* background-color:var(--color-bg); */
+        color: var(--color-bg-variant);
     }
 
     img{

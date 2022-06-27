@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
-import { GiFox } from 'react-icons/gi'
-import {AiFillInstagram} from 'react-icons/ai'
-import {AiFillGithub} from 'react-icons/ai'
-import {AiFillLinkedin} from 'react-icons/ai'
-import {AiFillTwitterCircle} from 'react-icons/ai'
-import "./Home.css"
-import Netart from '../NetArt/Netart'
+import React, { Component } from 'react';
+import { GiFox } from 'react-icons/gi';
+import {AiFillInstagram} from 'react-icons/ai';
+import {AiFillGithub} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
+import {AiFillTwitterCircle} from 'react-icons/ai';
+import "./Home.css";
+import Netart from '../NetArt/Netart';
+import QuickMenu from '../05QuickMenu/QuickMenu';
 
 
 
@@ -23,6 +24,9 @@ export default class HomePageIntro extends Component {
             </div>
             
           </header>
+          <article>
+          
+          </article>
          
 
 

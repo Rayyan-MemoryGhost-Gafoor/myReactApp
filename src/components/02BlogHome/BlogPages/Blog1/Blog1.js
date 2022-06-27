@@ -5,8 +5,9 @@ export default class Blog1 extends Component {
 
     render(){
         return(
-            <div className='Blog-Text'>
+            <section className='Blog-Text'>
                <h1>Beyond the Beyond</h1>
+               <article>
                <p>
                 A critical analysis of the interactive, virtual reality artwork, created by Zoe
                 Beloff, The Beyond.
@@ -36,13 +37,18 @@ export default class Blog1 extends Component {
                 Using “The Work of Art in the Age of Mechanical Reproduction”by Walter Benjamin, and Net Art,
                 Post-internet Art, New Aesthetics: The Fundamentals of Art on the Internet by DANAEwe will look at
                 the following:
-                • The Idea of Aura within a digital space
-                • Film and Photography
-                • New aesthetic and Immersion
+                <ul>
+                    <li>The Idea of Aura within a digital space</li>
+                    <li>Film and Photography</li>
+                    <li>New aesthetic and Immersion</li>
+                </ul>
                </p>
+               </article>
+               
                <h2>
                Aura within the Digital Space.
                </h2>
+               <article>
                <p>
                 In his work, Walter Benjamin speaks of the aura an artwork has,referring to its uniqueness and
                 authenticity. With the raise of the digital space, we see why Benjamin believed that the aura of art is
@@ -53,16 +59,21 @@ export default class Blog1 extends Component {
                 internet, The Beyond project would have not been possible. It is the only medium in which it could
                 have been experienced. So how does a digital piece of work, lacking the physical component, carry
                 an aura?
-                <br></br>
+                <article>
                 All of this left me with questions such as:
                 • Is internet art born with an aura?
                 • If it is born with an aura, how does it lose its aura through a medium in which it cannot exist
                 without?
+                </article>
+                
 
                </p>
+               </article>
+               
                <h2>
                Film And Photography
                </h2>
+               <article>
                <p>
                 While Examining the Beyond Project, I came across references used by Beloff.One reference drew
                 my attention, simply because Ithought it had a cool name, The Vision Machine by Paul Virilio. In this
@@ -70,11 +81,11 @@ export default class Blog1 extends Component {
                 Rodin and Paul Gsell. This brought about the question which is true and real when perceived.
                 “it is art that tells the truth and photography that lies. For in reality time does not stand still” Auguste
                 Rodin.
-                <br></br>
+                
                 Even more concerning is that Beloff, uses photography to create this world, and according to
                 Benjamin, photography does not have an aura, due to the simple fact that it is created with the eye
                 and not the hands.
-                <br></br>
+                
                 Although, alongside photography, Beloff uses, poems, diagrams, films and various art forms
                 throughoutthis project. She uses these art forms to explore the idea of the paranormal brought
                 about the age of mechanical reproduction. The Beyond is a world in which the dead is resurrected as
@@ -82,25 +93,27 @@ export default class Blog1 extends Component {
                 deceives our perception of reality in that moment, it is the memory behind it that shapes and brings
                 meaning to it. Beloff exploits this idea of objects themselves having stories of past lives and uses
                 these various forms of art to bring back their memory.
-                <br></br>
+             
                 “I attempt to […] set them in motion so that they might speak again, but differently. For me, the
                 cinematic apparatus is not just machines but more importantly our interaction with them.”
                 Allowing the viewer to somewhatrelive those moments in time. Similar to the works of Olia Lialina
                 in “My Boyfriend Came Back From War”. Again, I contemplate the question of aura, does this mean
                 that the aura of those art works is brought back as well?
-                <br></br>
+               
                 Beloff stats that the purpose of this project is to illuminate the present through the past. In this we
                 see how technology resurrectsthe dead, bringing back old language and arts, through artificial
                 resurrection, and how cinema acts as the time machine while her voice acts as the connection
                 between the virtual and reality.
                </p>
+               </article>
+               
                <h2>New Aesthetic</h2>
+               <article>
                <p>
                 With the above being said, it leads use into the idea of immersion. Looking at the quote of Paul
                 Valery: "Just as water, gas, and electricity are brought into our houses from far off to satisfy our
                 needs in response to a minimal effort, so we shall be supplied with visual or auditory images, which
                 will appear and disappear at a simple movement of the hand, hardly more than a sign."
-<br></br>
                 Benjamin argues that technology will change the ways in which we experience art, and indeed the
                 internet has fundamentally altered our experience. Which left the question: how artist would
                 respond with the rise of internet. Well, Beloff’sresponse to this by making creative use of the
@@ -113,8 +126,12 @@ export default class Blog1 extends Component {
                 that this piece of art, (although it is creepy), is an outstanding piece with a very unique experience,
                 that set the future possibilities at the time for interactivity and immersion in the digital space. 
                </p>
-               <br></br>
-               <button className='btn'><Link className='Nav-link-names' to="/blogs">Back</Link></button>
+               </article>
+               
+               <article>
+               <button className='btn'><Link  to="/blogs">Back</Link></button>
+               
+               </article>
                <h5>
                    References
                </h5>
@@ -125,7 +142,7 @@ export default class Blog1 extends Component {
                 Beloff, Z., 2018. Emotions go to work. Brooklyn, NY: Minor Compositions.<br></br>
                </p>
 
-            </div>
+            </section>
         )
     }
 }
