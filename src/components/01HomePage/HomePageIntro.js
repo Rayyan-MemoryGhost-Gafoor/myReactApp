@@ -18,7 +18,7 @@ export default class HomePageIntro extends Component {
           <header>
             <div className='container header__container'>
               <h5>Hello I Am</h5>
-              <h1> <GiFox/> Ghost <GiFox/></h1>
+              <h1> <GiFox/> MemoryGhost <GiFox/></h1>
               <h5 className='text-light'>Game Developer | Designer </h5>
               <div className='me'><img className='homeImage' src={this.props.Owner.Logo}/></div>
             </div>
